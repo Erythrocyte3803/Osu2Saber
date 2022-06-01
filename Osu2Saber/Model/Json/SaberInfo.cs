@@ -69,7 +69,7 @@ namespace Osu2Saber.Model.Json
         public int _difficultyRank;
         public string _beatmapFilename;
         public int _noteJumpStartBeatOffset;
-		public int _noteJumpSpeed = 10;
+		public int _noteJumpMovementSpeed = 10;
 
 		public CustomData _customData = new CustomData();
 		public void setDifficultyName(String name)
